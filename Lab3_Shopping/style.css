@@ -1,0 +1,77 @@
+html, body, blockquote, code, h1, h2, h3, h4, h5, h6, p, pre {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    margin: 0;
+    height: 7vw;
+    background-color: white;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d5d5d5;
+}
+
+#logo {
+    font-family: "Segoe UI Light", "sans-serif";
+    font-size: 4vw;
+    position: fixed;
+    top: 1vh;
+    left: 12vw;
+    color: darkolivegreen;
+}
+
+span, h2 ,th{
+    font-family: "Segoe UI Light", "sans-serif";
+    color: darkolivegreen;
+}
+
+#welcome-txt {
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2.5vw;
+}
+
+button {
+    background-color: darkolivegreen;
+    border: darkolivegreen;
+    color: white;
+    height: 3vw;
+}
+
+#logout-btn {
+    position: absolute;
+    right: 5vw;
+
+}
+
+.container {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+table {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkolivegreen;
+    width: 70vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+th{
+    border-right-width: 1px ;
+    border-right-style: solid;
+    border-right-color: darkolivegreen;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: darkolivegreen;
+}
+#place-order-btn{
+    position: absolute;
+    right: 0;
+}
