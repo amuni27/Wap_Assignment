@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <p class="header-data">Workshop Registration <span id="head-span">More Actions</span> <img id="down-icon"
+                                                                                               src="./public/image/down.png"
+                                                                                               alt="down"></p>
+</header>
+
+<div class="container">
+    <form action="#">
+        <p id="welcome-txt">Register now while seats are available</p> <br><br>
+        <div class="left">
+            <label for="first-name" class="labels">First Name: </label>
+            <input type="text" placeholder="Enter first name" id="first-name"><br/><br/>
+            <label for="last-name" class="labels">Last Name: </label>
+            <input type="text" placeholder="Enter last name" id="last-name"><br/><br/>
+            <label for="company-institution" class="labels">Company Institution: </label>
+            <input type="text" placeholder="Enter company institution" id="company-institution"><br/><br/>
+            <label for="address" class="labels">Address: </label>
+            <textarea placeholder="Enter address" id="address"></textarea><br/><br/><br/><br/>
+            <label for="city" class="labels">City: </label>
+            <input type="text" placeholder="Enter city" id="city"><br/><br/>
+            <label for="state" class="labels">State: </label>
+            <Select id="state">
+                <option value="Texas"> Texas</option>
+                <option value="Washington DC"> Texas</option>
+                <option value="Iowa"> Iowa</option>
+                <option value="Colorado "> Colorado</option>
+            </Select><br/><br/>
+            <label for="country" class="labels">Country: </label>
+            <Select id="country">
+                <option value="Ethiopia"> Ethiopia</option>
+                <option value="USA"> USA</option>
+                <option value="China"> China</option>
+                <option value="Nigeria "> Nigeria</option>
+            </Select><br/><br/>
+            <label for="email" class="labels">Email: </label>
+            <input type="text" placeholder="Enter email" id="email"><br/><br/>
+            <label for="phone-number" class="labels">Phone Number: </label>
+            <input type="text" placeholder="Enter phone-number" id="phone-number"><br/><br/>
+        </div>
+        <div class="right">
+            <p>Lunch</p><br/>
+            <label for="meal-preference">Meal Preference:</label>
+            <input type="text" placeholder="Enter first name" id="meal-preference"><br/><br/>
+            <p>Payment Detail</p><br/>
+            <span>Payment Mode</span>
+            <div class="checkbox-container">
+                <label class="checkbox-label"><input class="checkbox" type="checkbox" name="cash"
+                                                     value="Cash">Cash</label><br/>
+                <label class="checkbox-label"><input class="checkbox" type="checkbox" name="cheque"
+                                                     value="Cheque">Cheque</label><br/>
+                <label class="checkbox-label"><input class="checkbox" type="checkbox" name="demand-draft"
+                                                     value="Demand Draft"> Demand Draft</label><br/><br/>
+            </div>
+            <label for="cheque-number" class="labels">DD/ChequeNumber: </label>
+            <input type="text" placeholder="cheque number" id="cheque-number"><br/><br/>
+            <label for="drawn-on" class="labels">Drawn On (Bank Name): </label>
+            <input type="text" placeholder="Enter drawn-on (Bank Name)" id="drawn-on"><br/><br/>
+            <label for="payable_at" class="labels">Company Institution: </label>
+            <input type="text" placeholder="Enter company institution" id="payable_at"><br/>
+
+        </div>
+    </form>
+</div>
+
+<footer>
+    <button class="button button-submit">submit</button>
+    <button class="button button-reset">Reset</button>
+</footer>
+
+
+</body>
+</html>
